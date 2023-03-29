@@ -11,9 +11,9 @@ namespace TiendaServicios.RabbitMQ.Bus.BusRabbit
 {
     public interface IRabbitEventBus
     {
-        Task EnviarComando<T>(T omando) where T : Comando;
+        Task EnviarComando<T>(T comando) where T : Comando;
 
-        void Publich<T>(T @evento) where T : Evento;
+        void Publish<T>(T @evento) where T : Evento;
 
         void Subscribe<T, TH>() where T : Evento
                                 where TH : IEventoManejador<T>;

@@ -10,7 +10,7 @@ namespace TiendaServicios.Api.Libros.Aplicacion
 {
     public class Nuevo
     {
-        public class Ejecuta: IRequest
+        public class Ejecuta: IRequest<Unit>
         {
             public string Titulo { get; set; }
             public DateTime? FechaPublicacion { get; set; }
@@ -30,7 +30,7 @@ namespace TiendaServicios.Api.Libros.Aplicacion
 
         }
 
-        public class Manejador : IRequestHandler<Ejecuta>
+        public class Manejador : IRequestHandler<Ejecuta, Unit>
         {
             private readonly ContextoLibreria _contexto;
 
@@ -49,14 +49,14 @@ namespace TiendaServicios.Api.Libros.Aplicacion
                 };
                 _contexto.LibreriaMaterial.Add(libro);
 
-                var value = await _contexto.SaveChangesAsync();
+                var saveResult = await _contexto.SaveChangesAsync(cancellationToken);
 
-                if(value > 0)
+                if (saveResult > 0)
                 {
                     return Unit.Value;
-
                 }
-                throw new Exception("No se pudo guradar el libro");
+
+                throw new Exception("No se pudo guardar el libro");
             }
         }
 

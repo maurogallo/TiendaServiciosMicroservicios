@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.rabbitmq.bus\\comandos\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|solutionrelative:tiendaservicios.rabbitmq.bus\\comandos\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F22B17C-4416-405E-8B71-991FF4CDC9D6}|TiendaServicios.Api.Libros\\TiendaServicios.Api.Libros.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.api.libros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F22B17C-4416-405E-8B71-991FF4CDC9D6}|TiendaServicios.Api.Libros\\TiendaServicios.Api.Libros.csproj|solutionrelative:tiendaservicios.api.libros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F22B17C-4416-405E-8B71-991FF4CDC9D6}|TiendaServicios.Api.Libros\\TiendaServicios.Api.Libros.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.api.libros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F22B17C-4416-405E-8B71-991FF4CDC9D6}|TiendaServicios.Api.Libros\\TiendaServicios.Api.Libros.csproj|solutionrelative:tiendaservicios.api.libros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F22B17C-4416-405E-8B71-991FF4CDC9D6}|TiendaServicios.Api.Libros\\TiendaServicios.Api.Libros.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.api.libros\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6F22B17C-4416-405E-8B71-991FF4CDC9D6}|TiendaServicios.Api.Libros\\TiendaServicios.Api.Libros.csproj|solutionrelative:tiendaservicios.api.libros\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15D86E4-ED3D-48B6-BA65-CBFF63B73735}|TiendaServicios.Api.CarritoCompra\\TiendaServicios.Api.CarritoCompra.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.api.carritocompra\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A15D86E4-ED3D-48B6-BA65-CBFF63B73735}|TiendaServicios.Api.CarritoCompra\\TiendaServicios.Api.CarritoCompra.csproj|solutionrelative:tiendaservicios.api.carritocompra\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.rabbitmq.bus\\implement\\rabbiteventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|solutionrelative:tiendaservicios.rabbitmq.bus\\implement\\rabbiteventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.rabbitmq.bus\\eventos\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|solutionrelative:tiendaservicios.rabbitmq.bus\\eventos\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.rabbitmq.bus\\eventos\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|solutionrelative:tiendaservicios.rabbitmq.bus\\eventos\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.rabbitmq.bus\\busrabbit\\irabbiteventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|solutionrelative:tiendaservicios.rabbitmq.bus\\busrabbit\\irabbiteventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.rabbitmq.bus\\busrabbit\\ieventomanejador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7649A87F-6E26-4DBE-AC55-3CB58F1E9D6D}|TiendaServicios.RabbitMQ.Bus\\TiendaServicios.RabbitMQ.Bus.csproj|solutionrelative:tiendaservicios.rabbitmq.bus\\busrabbit\\ieventomanejador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F22B17C-4416-405E-8B71-991FF4CDC9D6}|TiendaServicios.Api.Libros\\TiendaServicios.Api.Libros.csproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\tiendaservicios.api.libros\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F22B17C-4416-405E-8B71-991FF4CDC9D6}|TiendaServicios.Api.Libros\\TiendaServicios.Api.Libros.csproj|solutionrelative:tiendaservicios.api.libros\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F159590-7B75-48F0-8CE9-9991A8651503}|docker-compose.dcproj|c:\\users\\mauro\\source\\repos\\tiendaserviciosmicroservicios\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3F159590-7B75-48F0-8CE9-9991A8651503}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\Comandos\\Startup.cs",
+              "RelativeDocumentMoniker": "TiendaServicios.RabbitMQ.Bus\\Comandos\\Startup.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\Comandos\\Startup.cs",
+              "RelativeToolTip": "TiendaServicios.RabbitMQ.Bus\\Comandos\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:25:51.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.Libros\\appsettings.json",
+              "RelativeDocumentMoniker": "TiendaServicios.Api.Libros\\appsettings.json",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.Libros\\appsettings.json",
+              "RelativeToolTip": "TiendaServicios.Api.Libros\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T20:24:57.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.Libros\\Program.cs",
+              "RelativeDocumentMoniker": "TiendaServicios.Api.Libros\\Program.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.Libros\\Program.cs",
+              "RelativeToolTip": "TiendaServicios.Api.Libros\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:24:54.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.Libros\\Dockerfile",
+              "RelativeDocumentMoniker": "TiendaServicios.Api.Libros\\Dockerfile",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.Libros\\Dockerfile",
+              "RelativeToolTip": "TiendaServicios.Api.Libros\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T20:24:42.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.CarritoCompra\\Dockerfile",
+              "RelativeDocumentMoniker": "TiendaServicios.Api.CarritoCompra\\Dockerfile",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.CarritoCompra\\Dockerfile",
+              "RelativeToolTip": "TiendaServicios.Api.CarritoCompra\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T20:24:38.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RabbitEventBus.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\Implement\\RabbitEventBus.cs",
+              "RelativeDocumentMoniker": "TiendaServicios.RabbitMQ.Bus\\Implement\\RabbitEventBus.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\Implement\\RabbitEventBus.cs",
+              "RelativeToolTip": "TiendaServicios.RabbitMQ.Bus\\Implement\\RabbitEventBus.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:23:54.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\Eventos\\Message.cs",
+              "RelativeDocumentMoniker": "TiendaServicios.RabbitMQ.Bus\\Eventos\\Message.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\Eventos\\Message.cs",
+              "RelativeToolTip": "TiendaServicios.RabbitMQ.Bus\\Eventos\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:23:48.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\Eventos\\Evento.cs",
+              "RelativeDocumentMoniker": "TiendaServicios.RabbitMQ.Bus\\Eventos\\Evento.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\Eventos\\Evento.cs",
+              "RelativeToolTip": "TiendaServicios.RabbitMQ.Bus\\Eventos\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:23:45.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRabbitEventBus.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\BusRabbit\\IRabbitEventBus.cs",
+              "RelativeDocumentMoniker": "TiendaServicios.RabbitMQ.Bus\\BusRabbit\\IRabbitEventBus.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\BusRabbit\\IRabbitEventBus.cs",
+              "RelativeToolTip": "TiendaServicios.RabbitMQ.Bus\\BusRabbit\\IRabbitEventBus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:23:37.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEventoManejador.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\BusRabbit\\IEventoManejador.cs",
+              "RelativeDocumentMoniker": "TiendaServicios.RabbitMQ.Bus\\BusRabbit\\IEventoManejador.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.RabbitMQ.Bus\\BusRabbit\\IEventoManejador.cs",
+              "RelativeToolTip": "TiendaServicios.RabbitMQ.Bus\\BusRabbit\\IEventoManejador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:23:33.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.Libros\\Startup.cs",
+              "RelativeDocumentMoniker": "TiendaServicios.Api.Libros\\Startup.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\TiendaServicios.Api.Libros\\Startup.cs",
+              "RelativeToolTip": "TiendaServicios.Api.Libros\\Startup.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAywBYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:22:37.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\TiendaServiciosMicroservicios\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-25T20:22:04.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,13 +10,13 @@ namespace TiendaServicios.Api.CarritoCompra.Aplicacion
 {
     public class Nuevo
     {
-        public class Ejecuta : IRequest
+        public class Ejecuta : IRequest<Unit>
         {
             public DateTime FechaCreacionSesion { get; set; }
             public List<String> ProductoLista { get; set; }
         }
 
-        public class Manejador : IRequestHandler<Ejecuta>
+        public class Manejador : IRequestHandler<Ejecuta, Unit>
         {
             private readonly CarritoContexto _contexto;
 
@@ -27,18 +27,26 @@ namespace TiendaServicios.Api.CarritoCompra.Aplicacion
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
+                if (request == null)
+                {
+                    throw new ArgumentNullException(nameof(request));
+                }
+                if (request.ProductoLista == null || request.ProductoLista.Count == 0)
+                {
+                    throw new ArgumentException("La lista de productos no puede estar vacía.", nameof(request.ProductoLista));
+                }
+
                 var carritoSesion = new CarritoSesion
                 {
-                    FechaCreacion = request.FechaCreacionSesion
-
+                    FechaCreacion = request.FechaCreacionSesion == default ? DateTime.UtcNow : request.FechaCreacionSesion
                 };
 
                 _contexto.CarritoSesion.Add(carritoSesion);
-                var value = await _contexto.SaveChangesAsync();
+                var saveResult = await _contexto.SaveChangesAsync(cancellationToken);
 
-                if (value == 0)
+                if (saveResult == 0)
                 {
-                    throw new Exception("Errores en la insersion del carrito de compras");
+                    throw new Exception("Error en la insercion del carrito de compras");
                 }
 
                 int id = carritoSesion.CarritoSesionId;
@@ -47,19 +55,20 @@ namespace TiendaServicios.Api.CarritoCompra.Aplicacion
                 {
                     var detalleSesion = new CarritoSesionDetalle
                     {
-                        FechaCreacion = DateTime.Now,
+                        FechaCreacion = DateTime.UtcNow,
                         CarritoSesionId = id,
                         ProductoSeleccionado = obj
                     };
                     _contexto.CarritoSesionDetalle.Add(detalleSesion);
-
                 }
-                value = await _contexto.SaveChangesAsync();
 
-                if (value > 0)
+                saveResult = await _contexto.SaveChangesAsync(cancellationToken);
+
+                if (saveResult > 0)
                 {
                     return Unit.Value;
                 }
+
                 throw new Exception("No se pudo insertar el detalle del carrito de compra");
             }
         }

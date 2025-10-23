@@ -10,7 +10,7 @@ namespace TiendaServicios.Api.Autor.Aplicacion
 {
     public class Nuevo
     {
-        public class Ejecuta : IRequest
+        public class Ejecuta : IRequest<Unit>
         {
             public string Nombre { get; set; }
             public string Apellido { get; set; }
@@ -28,7 +28,7 @@ namespace TiendaServicios.Api.Autor.Aplicacion
         }
 
 
-        public class Manejador : IRequestHandler<Ejecuta>
+        public class Manejador : IRequestHandler<Ejecuta, Unit>
         {
             public readonly ContextoAutor _contexto;
 
@@ -39,18 +39,22 @@ namespace TiendaServicios.Api.Autor.Aplicacion
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
+                if (request == null)
+                {
+                    throw new ArgumentNullException(nameof(request));
+                }
+
                 var autorLibro = new AutorLibro
                 {
                     Nombre = request.Nombre,
                     Apellido = request.Apellido,
                     FechaNacimiento = request.FechaNacimiento,
-                    AutorLibroGuid = Convert.ToString(Guid.NewGuid())
-
+                    AutorLibroGuid = Guid.NewGuid().ToString()
                 };
 
                 _contexto.AutorLibro.Add(autorLibro);
-                var valor = await _contexto.SaveChangesAsync();
-                if (valor > 0)
+                var saveResult = await _contexto.SaveChangesAsync(cancellationToken);
+                if (saveResult > 0)
                 {
                     return Unit.Value;
                 }
